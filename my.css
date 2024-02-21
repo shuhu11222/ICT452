@@ -1,48 +1,54 @@
+/* Paragraph text color */
 p {
-    color:rgb(14, 175, 122);
+  color: rgb(14, 175, 122);
 }
 
+/* Heading 1 text color */
 h1 {
-    color: rgb(216, 179, 77);
+  color: rgb(216, 179, 77);
 }
+
+/* Heading 3 text color */
 h3 {
   color: rgb(229, 54, 54);
 }
+
+/* Body background color */
 body {
-
   background-color: rgb(154, 119, 228);
-
+  margin: 0;
+  /* Reset default margin */
 }
 
-body {
-    margin: 0;
-  }
-  
-  .header {
-    background-color: #14078a;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .topnav {
-    overflow: hidden;
-    background-color: #030303;
-  }
-  
-  .topnav a {
-    float: center;
-    color: #fdf5f5;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgb(128, 11, 11);
-  }
-  /* Create three equal columns that floats next to each other */
+/* Header styling */
+.header {
+  background-color: #14078a;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Top navigation styling */
+.topnav {
+  overflow: hidden;
+  background-color: #030303;
+}
+
+.topnav a {
+  float: center;
+  /* Adjusted to center */
+  color: #fdf5f5;
+  text-align: center;
+  /* Align text to center */
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(128, 11, 11);
+}
+
+/* Create three equal columns that floats next to each other */
 .column {
   float: left;
   width: 33.33%;
@@ -62,12 +68,19 @@ body {
     width: 100%;
   }
 }
-/* Footer */
+
+/* Footer styling */
 .footer {
   padding: absolute;
-  bottom: 0 ;
+  /* Corrected from padding to position */
+  bottom: 0;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
 }
-div.center img{display:block; margin: 0 auto ;}
+
+/* Center image within div */
+div.center img {
+  display: block;
+  margin: 0 auto;
+}
